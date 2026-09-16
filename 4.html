@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Багц 4</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+.header {
+    background: #5E686D;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+.header h1 {
+    font-size: 3em;
+    margin: 0;
+    letter-spacing: 2px;
+}
+.header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.bagts1 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    padding: 50px 20px;
+    justify-items: center;
+}
+
+.bagts1-item {
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.bagts1-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.bagts1-item h3 {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+.bagts1-item p {
+    padding: 0 20px;
+    font-size: 1em;
+    color: #666;
+}
+
+.bagts1-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+
+.bagts1-item:hover img {
+    transform: scale(1.05);
+}
+
+</style>
+<body>
+
+    <!-- Танилцуулга хэсэг -->
+    <header class="header">
+        <h1>Багц 4</h1>
+    </header>
+
+    <!-- Багцын танилцуулга хэсэг -->
+    <section class="bagts1">
+        <div class="bagts1-item">
+            <img src="zurg/4,1.jpg" alt="Item 1">
+            <h3>Бүтээгдэхүүн 1</h3>
+      
+        </div>
+        <div class="bagts1-item">
+            <img src="zurg/4,2.jpg" alt="Item 2">
+            <h3>Бүтээгдэхүүн 2</h3>
+        
+        </div>
+        <div class="bagts1-item">
+            <img src="zurg/4,3.jpg" alt="Item 3">
+            <h3>Бүтээгдэхүүн 3</h3>
+	</div>
+       <div class="bagts1-item">
+            <img src="zurg/4,4.jpg" alt="Item 4">
+            <h3>Бүтээгдэхүүн 4</h3>
+        </div>
+ <div class="bagts1-item">
+            <img src="zurg/4,5.jpg" alt="Item 5">
+            <h3>Бүтээгдэхүүн 5</h3>
+ </div>
+        </div>
+
+
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 Хуулиар хамгаалагдсан</p>
+    </footer>
+</body>
+</html>
